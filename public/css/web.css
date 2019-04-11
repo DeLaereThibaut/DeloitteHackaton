@@ -1,0 +1,351 @@
+/*Login page*/
+
+.test{
+    display:flex;
+    justify-content: center;
+}
+
+div.card{
+    margin-top: 50px;
+    height: 300px;
+    width:700px;
+}
+
+.logo{
+    width:600px;
+    margin:50px;
+}
+
+/* HEADER */
+.navBox{
+    display:flex;
+    flex-direction: row;
+    width:50%;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    list-style:none ;
+    margin: 25px 0 25px 0;
+}
+
+.navbar-laravel{
+    min-width: 1000px;
+    top:0;
+    position: fixed;
+    width: 100%;
+    height: 125px;
+    z-index: 100;
+}
+
+.navcontainer{
+    min-width: 1000px;
+}
+
+.button{
+    font-size: 20px;
+    padding: 5px 25px 5px 25px;
+    margin: 0 20px 0 20px;
+    background-color: white;
+    color: #86bc25;
+    border-color:#86bc25;
+}
+
+.button.active, .button:hover, .login,.logout:active{
+     background-color: #86bc25;
+    color:white;
+    border-color: #86bc25;
+}
+
+.headerLogo{
+    max-width: 150px;
+}
+
+
+/* HOME EVENT*/
+.eventList{
+    list-style:none;
+    padding-left:0;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.eventsDiv{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 7%;
+    width: 50%;
+
+    min-width: 700px;
+}
+
+.body{
+    background-color: rgba(0,0,0,0.05);
+}
+.kpi{
+    width:30%;
+    min-width: 300px ;
+    padding: 100px 50px 0 50px;
+
+}
+
+
+div.event{
+    margin-top:50px;
+    width: 100%;
+    height: auto;
+}
+
+.mypanel{
+    background-color: white;
+}
+
+.title{
+    margin: 50px 0 0 10%;
+    font-size: 2.5em;
+    font-family: "Arial Black";
+    height : 50px;
+}
+
+.head{
+    background-color: rgba(134, 188, 37, 0.9);
+    color:white;
+    font-size: 1.8em;
+    height: 50px;
+    padding-bottom:40px;
+}
+
+.innerDiv{
+    height:33%;
+}
+
+.date{
+    font-size: 2em;
+}
+
+.body{
+    margin-top:125px;
+    font-family: Arial;
+}
+
+.link, .link:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/* EVENT LIST */
+.dropdowntri{
+    border-color: #86bc25;
+    background-color: white;
+    border-width: 1px;
+    color:#86bc25;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1.3em;
+    margin:5px;
+
+}
+
+
+.dropdowntri::placeholder{
+    color:#86bc25;
+}
+
+.searchButton:active, .searchButton:hover{
+background-color: #86bc25;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdowntri.search{
+    width: 400px;
+}
+
+.alleventdiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.researchdiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: center;
+}
+
+
+.modal-content{
+    border-color: #86bc25;
+}
+.form-control{
+    border:1px solid #86bc25;
+}
+.modal-header{
+    background-color: #86bc25;
+    color:white;
+    font-size:1.5em
+}
+
+/*ADD CONTACT*/
+.check{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.myCheckbox{
+    height:25px;
+    width: 25px;
+    margin-left: 15px;
+    border-color: #86bc25;
+    color:#86bc25;
+}
+
+/*SCHOOL DETAILS*/
+.contactBox{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.detailsbox{
+    display: flex;
+    flex-direction: row;
+    padding: 0 5% 0 5%;
+    height:auto;
+}
+
+div.card.schooldetails{
+    width:100%;
+    padding-bottom: 25px;
+}
+
+div > h3{
+    font-size:1.5em;
+}
+
+.schooldetailbox{
+    width:60%;
+    margin-right:10%;
+}
+
+.addcontact:active, .addcontact:hover{
+    background-color: #86bc25;
+    color:white;
+    cursor: pointer;
+}
+
+.addcontact{
+    margin-left:5%;
+    width: 90%;
+}
+
+.card-header{
+    background-color: #86bc25;
+    color:white;
+    font-size: 1.3em;
+}
+
+.commentdetails{
+    margin-top:50px;
+    margin-bottom: 50px;
+    width: 60%;
+}
+
+.postcomment{
+    display: flex;
+    flex-direction: row;
+}
+
+.savecomment{
+    width: 9%;
+    margin-top:0;
+    height:50px;
+    margin-left: 1%;
+    background-color: white;
+    color:#86bc25;
+}
+
+.commentsection{
+    color: #86bc25;
+    max-height: 400px;
+    min-height: 50px;
+}
+
+h2.title{
+    font-size: 2em;
+}
+
+.flexcomment{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.detailsinschool{
+    padding:15px 0 0 15px;
+    margin-left:25px;
+}
+
+.contactdiv{
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+}
+
+.statdiv{
+    width: calc(100% / 3);
+    text-align: center;
+    font-weight: bold;
+}
+
+.eventdetails, .card.eventdetails{
+    width: 45%
+}
+
+.verticalflex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.pie{
+
+    width: calc(100% / 5);
+    min-width: 300px;
+}
+
+.studentlist{
+    height:400px;
+    overflow-y: scroll;
+    background-color: transparent;
+}
+
+
+.listp, .titlep{
+    width: calc(100% / 3);
+    padding-top: 20px;
+}
+
+.titlep{
+    font-weight: bold;
+    margin:5px;
+    font-size: 1.3em;
+    padding: 12px 20px 12px 20px;
+}
+
+.addStudent{
+    background-color: white;
+    color:#86bc25;
+    border-color: #86bc25;
+    border-radius: 2px;
+
+}
+
+.studentlistli:hover{
+    cursor: pointer;
+}
